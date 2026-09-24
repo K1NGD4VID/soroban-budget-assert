@@ -6,3 +6,9 @@ publish = false
 
 [lib]
 crate-type = ["cdylib"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
